@@ -2,9 +2,13 @@
 A proof of concept for TP-LINK router AC1750 v2 Buffer Overflow.
 
 ## Intro
-In July 2022 I found a new vulnerability in the TP-LINK router. A buffer overflow in the httpd daemon on TP-Link Archer C7 v2 (firmware version 3.15.3 Build 180114) devices allows an authenticated remote attacker to execute arbitrary code via a malicious Folder Sharing request to /userRpm/NasFolderSharingRpm.htm.
+In July 2022 I found a new vulnerability in the TP-LINK router. 
 
-To exploit the vulnerability simple adding a new folder request could be abused to achieve a classic RCE bug, after playing around with the parameters I found sending a long string inside the parameter "shareFolderName" produced that the application gets stuck, and the web interface stops responding to requests and even the WIFI AP stop working
+<img src="https://raw.githubusercontent.com/gscamelo/TP-Link-AC1750-v2/main/images/02.jpeg" width=50% height=50%>
+
+A buffer overflow in the httpd daemon on TP-Link Archer C7 v2 (firmware version 3.15.3 Build 180114) devices allows an authenticated remote attacker to execute arbitrary code via a malicious Folder Sharing request to /userRpm/NasFolderSharingRpm.htm.
+
+To exploit the vulnerability simple adding a new folder request could be abused to achieve a classic RCE bug, after playing around with the parameters I found sending a long string inside the parameter "shareFolderName" produced that the application gets stuck, and the web interface stops responding to requests and even the WIFI AP stop working.
 
 ## PoC
 ```
