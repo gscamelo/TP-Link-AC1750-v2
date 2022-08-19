@@ -1,4 +1,4 @@
-# CVE-2022-????
+# CVE-2022-35568
 A proof of concept for TP-LINK router AC1750 v2 Buffer Overflow.
 
 ## Intro
@@ -26,3 +26,4 @@ python xpl.py
 
 + July 01, 2022 - Vulnerability identified
 + July 07, 2022 - Vulnerability reported
++ August 19, 2022 - Mitre Reserved CVE-2022-35568
