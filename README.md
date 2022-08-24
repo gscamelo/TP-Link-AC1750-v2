@@ -30,5 +30,6 @@ python xpl.py
 
 ## LINKS
 
+https://www.tp-link.com/en/support/download/archer-c7/v2/
 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-35568
 
