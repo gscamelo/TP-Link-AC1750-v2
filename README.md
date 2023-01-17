@@ -28,7 +28,7 @@ python xpl.py
 + July 07, 2022 - Vulnerability reported
 + August 19, 2022 - Mitre Reserved CVE-2022-35568
 + January 06, 2023 - Recieved response from Tp-Link
-+ Jnuary 17, 2023 - Tp-Link sent to me beta firmware with fixed vulnerability
++ January 17, 2023 - Tp-Link sent to me beta firmware with fixed vulnerability
 
 ## LINKS
 
